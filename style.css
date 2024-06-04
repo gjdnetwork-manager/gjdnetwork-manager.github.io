@@ -1,1 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
 
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.profile {
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.profile-picture {
+    position: absolute;
+    bottom: -40px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.user-details {
+    padding: 20px;
+}
+
+h1 {
+    margin: 5px 0;
+}
+
+.description {
+    margin-top: 15px;
+}
