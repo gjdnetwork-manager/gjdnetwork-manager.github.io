@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GJD feed</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Barra di scorrimento del frame */
+.frame-class::-webkit-scrollbar {
+    width: 12px;
+}
+
+.frame-class::-moz-scrollbar {
+    width: 12px;
+}
+
+/* Cursori */
+.frame-class::-webkit-scrollbar-thumb {
+    background-color: #4CAF50; /* Colore del cursore */
+    border-radius: 6px; /* Angoli arrotondati */
+}
+
+.frame-class::-moz-scrollbar-thumb {
+    background-color: #4CAF50;
+    border-radius: 6px;
+}
+
+/* Track */
+.frame-class::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Colore dello sfondo della barra di scorrimento */
+    border-radius: 10px; /* Angoli arrotondati */
+}
+
+.frame-class::-moz-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Angoli */
+.frame-class::-webkit-scrollbar-corner {
+    background: #ccc; /* Colore degli angoli */
+}
+
+.frame-class::-moz-scrollbar-corner {
+    background: #ccc;
+}
+
+
+      body, html {
+        height: 100%;
+        margin: 0;
+      }
+      .iframe-container {
+        height: 80%;  /* Imposta l'altezza al 80% della pagina */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      iframe {
+        width: 80%;
+        height: 100%;
+        border: none;
+      }
+      .spazio {
+    width: 50px;
+    height: 50px;
+}
+    </style>
+  </head>
+  <body>
+<nav class="navbar" style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://gjdfeed.github.io/">
+          <img src="https://dev-gabriel-jones.pantheonsite.io/wp-content/uploads/2024/05/icona.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+          gjd feed
+        </a>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://dev-gabriel-jones.pantheonsite.io/">GJP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gjdev.it/">GJD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://dev-gabriel-jones.pantheonsite.io/maintenance-mode/">maintenance mode</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="spazio"></div>
+    
+    <div class="iframe-container">
+      <iframe src="https://gjd-central.github.io/feed/"></iframe>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
