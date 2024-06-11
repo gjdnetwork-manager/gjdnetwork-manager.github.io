@@ -1,0 +1,57 @@
+  .ratio {
+    position: relative;
+    width: 100%;
+  }
+  .ratio img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .lightgrey-bg-a1 {
+    background-color: rgba(255, 255, 255, 0.1); /* Cambia il valore dell'opacità (0.1) a seconda di quanto trasparente vuoi che sia il rettangolo */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Opzionale: aggiungi un bordo leggero */
+  }
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Nasconde il contenuto che supera le dimensioni del contenitore */
+}
+
+.object {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Imposta l'altezza del corpo e dell'html al 100% */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
